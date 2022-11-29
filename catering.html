@@ -1,0 +1,64 @@
+<DOCTYPE hTML>
+<head>
+	<title>Somali Wedding'S Ideas</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body text="white">
+	<div>
+	 <div class="navbar">
+	 	<img src="logo.png.png" class="logo">
+      <ul>
+		 <li><a href="index.html.html">home </a></li>
+		 <li><a href="photography.html">photography </a></li>
+		 <li><a href="catering.html">catering </a></li>
+		 <li><a href="contact.html"> contact us</a></li>
+	 </ul>
+	</div>
+	 
+		<h1> Somali catering</h1>
+		
+		<div class="video-container">
+
+			<div class="video">
+				<video src="catering1.mp4" muted></video>
+			</div>
+            
+            <div class="video">
+				<video src="catering11.mp4"muted></video>
+			</div>
+
+			<div class="video">
+				<video src="catering3.mp4"muted></video>
+			</div>
+
+			<div class="video">
+				<video src="catering2.mp4"muted></video>
+			</div>
+
+		</div>
+	
+		
+		
+		
+	
+</div>
+          <script>
+          	
+          var video = document.querySelectorAll('video')
+
+          	video.forEach(play => play.addEventListener('click', () =>{play.classList.toggle('active');
+          
+          	if(play.paused){
+          		play.play();
+
+          	}else {
+          		play.pause();
+          		play.currentTime = 0
+          	}
+
+          	}));
+          </script>
+
+</body>
+
+</html>
